@@ -62,53 +62,68 @@ const App: () => Node = () => {
   };
 
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Section title="Step test One">
-            Edit <Text style={styles.highlight}>App.js</Text> to change this
-            screen and then come back to see your edits.
-          </Section>
-          <Section title="See Your Changes">
-            <ReloadInstructions />
-          </Section>
-          <Section title="Debug">
-            <DebugInstructions />
-          </Section>
-          <Section title="Learn More">
-            Read the docs to discover what to do next:
-          </Section>
-          <LearnMoreLinks />
+    <SafeAreaView>
+        <View style={styles.container}>
+                    <Text style={styles.Text1}> This is example text </Text>
+                    <Text style={styles.Text2}> This is example text </Text>
+                    <Text style={styles.Text3}> This is example text </Text>
+                    <Text style={styles.Text4}> This is example text </Text>
+                    <Text style={styles.Text5}> This is example text </Text>
+                    <Text style={styles.Text6}> This is example text </Text>
+                    <Text style={styles.Text7}> This is example text </Text>
+                    <Text style={styles.Text8}> This is example text </Text>
+                    <Text style={styles.Text9}> This is example text </Text>
+                    <Text style={styles.Text10}> This is example text </Text>
         </View>
-      </ScrollView>
     </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
-  sectionContainer: {
-    marginTop: 32,
-    paddingHorizontal: 24,
+  container: {
+        marginTop: 15,
   },
-  sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-  },
-  sectionDescription: {
-    marginTop: 8,
-    fontSize: 18,
-    fontWeight: '400',
-  },
-  highlight: {
-    fontWeight: '700',
-  },
+
+  Text1: {
+        color: 'gold',
+      },
+  Text2: {
+        marginTop: 15,
+        color: 'lightgreen',
+      },
+  Text3: {
+        marginTop: 15,
+        color: 'black',
+      },
+  Text4: {
+        marginTop: 15,
+        color: 'black',
+      },
+  Text5: {
+        marginTop: 15,
+        color: 'black',
+      },
+  Text6: {
+        marginTop: 15,
+        color: 'black',
+      },
+  Text7: {
+        marginTop: 15,
+        color: 'gold',
+      },
+  Text8: {
+        marginTop: 15,
+        color: 'black',
+      },
+  Text9: {
+        marginTop: 15,
+        color: 'black',
+      },
+  Text10: {
+        marginTop: 15,
+        color: 'gold',
+      },
+
 });
 
 export default App;
