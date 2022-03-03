@@ -82,25 +82,37 @@ const App: () => Node = () => {
 const styles = StyleSheet.create({
   container: {
         marginTop: 15,
+        marginLeft: 20,
   },
-
+  highlight: {
+         flex: 0.3,
+         backgroundColor: "white",
+         borderWidth: 1,
+         borderTopLeftRadius: 10,
+         borderTopRightRadius: 20,
+  },
   Text1: {
         color: 'gold',
       },
   Text2: {
         marginTop: 15,
+        fontSize: 20,
         color: 'lightgreen',
       },
   Text3: {
-        marginTop: 15,
+        marginTop: 18,
+        fontStyle: 'bold',
+        fontWeight: '600',
         color: 'black',
       },
   Text4: {
         marginTop: 15,
+        fontStyle: 'italic',
         color: 'black',
       },
   Text5: {
         marginTop: 15,
+        textDecorationLine: 'underline',
         color: 'black',
       },
   Text6: {
@@ -109,19 +121,25 @@ const styles = StyleSheet.create({
       },
   Text7: {
         marginTop: 15,
+        fontStyle: 'italic',
+        fontWeight: '600',
         color: 'gold',
       },
   Text8: {
         marginTop: 15,
+        marginLeft: 20,
         color: 'black',
       },
   Text9: {
         marginTop: 15,
+        marginRight : 100,
         color: 'black',
+        backgroundColor: 'gold',
       },
   Text10: {
         marginTop: 15,
         color: 'gold',
+        backgroundColor: 'yellow',
       },
 
 });
