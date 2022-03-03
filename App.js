@@ -3,7 +3,7 @@
  * https://github.com/facebook/react-native
  *
  * @format
- * @flow strict-local
+ * @flow strict-local (Test)
  */
 
 import React from 'react';
