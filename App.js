@@ -134,12 +134,12 @@ const styles = StyleSheet.create({
         marginTop: 15,
         marginRight : 100,
         color: 'black',
-        backgroundColor: 'gold',
+        backgroundColor: 'yellow',alignSelf: 'flex-start',
       },
   Text10: {
         marginTop: 15,
         color: 'gold',
-        backgroundColor: 'yellow',
+        backgroundColor: 'rgba(255, 255, 0, 0.2)',alignSelf: 'flex-start',
       },
 
 });
